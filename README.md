@@ -3,7 +3,7 @@
 <p align="center">
   <em>CRUD funcional com Jetpack Compose + Room, arquitetura MVVM</em><br><br>
   <img src="https://img.shields.io/badge/Kotlin-2.0-blueviolet?logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android%20Studio-Ladybug🐞-3DDC84?logo=androidstudio&logoColor=white" />
+   <img src="https://img.shields.io/badge/Android%20Studio-Narwhal%20%F0%9F%90%8B-3DDC84?logo=androidstudio&logoColor=white" />
   <img src="https://img.shields.io/badge/Jetpack%20Compose-%F0%9F%92%8C-blue?logo=jetpackcompose&logoColor=white" />
   <img src="https://img.shields.io/badge/Material%203-%F0%9F%8C%9F-lightgrey" />
 </p>
