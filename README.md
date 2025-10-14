@@ -46,37 +46,36 @@ app/src/main/java/com/biarapha/magicfolder/
     └── CardViewModel.kt            # ViewModel único (Flow de lista + wishlist)
 ```
 
-⚙️ Como rodar
-Clone:
-
-bash
-Copiar código
-git clone https://github.com/biavoitechen/MagicFolderCards.git
-Abra no Android Studio → aguarde o Gradle Sync.
-
-Launcher na ComposeActivity (AndroidManifest):
-
-xml
-Copiar código
-<activity android:name=".MainActivity" android:exported="true" />
-<activity android:name=".ComposeActivity" android:exported="true">
-  <intent-filter>
-    <action android:name="android.intent.action.MAIN" />
-    <category android:name="android.intent.category.LAUNCHER" />
-  </intent-filter>
-</activity>
+## ⚙️ Como rodar
+1. **Clone**: `git clone https://github.com/biavoitechen/MagicFolderCards.git`
+2. **Abra** no **Android Studio Narwhal** e aguarde o Gradle Sync.
+3. **Launcher** na `ComposeActivity` (AndroidManifest):
+   ```xml
+   <activity android:name=".MainActivity" android:exported="true" />
+   <activity android:name=".ComposeActivity" android:exported="true">
+     <intent-filter>
+       <action android:name="android.intent.action.MAIN" />
+       <category android:name="android.intent.category.LAUNCHER" />
+     </intent-filter>
+   </activity>
 Executar em emulador/API 24+ (ou dispositivo físico).
 
+
 Se já havia uma versão instalada, desinstale para evitar conflitos de banco.
+
 
 🧩 Tech stack (principal)
 Kotlin, Jetpack Compose, Material 3
 
+
 Navigation-Compose
+
 
 Room (Flow, DAO, migração 1→2; fallbackToDestructiveMigration() em DEV)
 
+
 Lifecycle ViewModel (AndroidViewModel)
+
 
 🏷 Licença
 Uso acadêmico e livre para estudo.
