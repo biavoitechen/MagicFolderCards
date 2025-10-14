@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.biarapha.magicfolder.app-mergeDebugResources-67:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-4\\0431b99f76e66e63d5f0fc028ae108b8\\transformed\\material-1.12.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}
