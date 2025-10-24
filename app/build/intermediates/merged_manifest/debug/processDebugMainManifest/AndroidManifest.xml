@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.biarapha.magicfolder"
+    package="com.raphael.magicfolder"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="34" />
+        android:targetSdkVersion="35" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
-        android:name="com.biarapha.magicfolder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.raphael.magicfolder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.biarapha.magicfolder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.raphael.magicfolder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
+        android:name="com.raphael.magicfolder.MagicFolderApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -30,10 +29,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.MagicFolder" >
         <activity
-            android:name="com.biarapha.magicfolder.MainActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.biarapha.magicfolder.ComposeActivity"
+            android:name="com.raphael.magicfolder.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,18 +38,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.biarapha.magicfolder.FormActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.biarapha.magicfolder.ListActivity"
-            android:exported="true" />
-        <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.biarapha.magicfolder.androidx-startup"
+            android:authorities="com.raphael.magicfolder.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

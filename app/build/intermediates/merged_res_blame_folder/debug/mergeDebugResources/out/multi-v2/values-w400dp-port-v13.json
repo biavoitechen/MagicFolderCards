@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.biarapha.magicfolder.app-mergeDebugResources-67:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
+            "outputFile": "com.raphael.magicfolder.app-mergeDebugResources-68:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-4\\0431b99f76e66e63d5f0fc028ae108b8\\transformed\\material-1.12.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-4\\95085e29678a88e439d58ada5393fdbb\\transformed\\material-1.12.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

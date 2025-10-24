@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.biarapha.magicfolder.app-mergeDebugResources-67:/values-v18/values-v18.xml",
+            "outputFile": "com.raphael.magicfolder.app-mergeDebugResources-68:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-4\\e0b74ee771fed856895d33356bf6cf66\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-4\\c02a1c25adff98409f087488825f6ab4\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

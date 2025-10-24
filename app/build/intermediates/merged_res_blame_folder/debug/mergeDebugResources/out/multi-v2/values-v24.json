@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.biarapha.magicfolder.app-mergeDebugResources-67:/values-v24/values-v24.xml",
+            "outputFile": "com.raphael.magicfolder.app-mergeDebugResources-68:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-4\\0431b99f76e66e63d5f0fc028ae108b8\\transformed\\material-1.12.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-4\\95085e29678a88e439d58ada5393fdbb\\transformed\\material-1.12.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-4\\e0b74ee771fed856895d33356bf6cf66\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-4\\c02a1c25adff98409f087488825f6ab4\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
